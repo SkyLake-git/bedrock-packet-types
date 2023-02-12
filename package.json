@@ -1,22 +1,22 @@
 {
-  "name": "bedrock-packet-types",
-  "version": "1.0.0",
-  "description": "Bedrock Protocol Packet Types",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SkyLake-git/bedrock-packet-types.git"
-  },
-  "keywords": [
-    "bedrock"
-  ],
-  "author": "SkyLake",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SkyLake-git/bedrock-packet-types/issues"
-  },
-  "homepage": "https://github.com/SkyLake-git/bedrock-packet-types#readme"
+	"name": "bedrock-packet-types",
+	"version": "1.0.1",
+	"description": "Bedrock Protocol Packet Types",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SkyLake-git/bedrock-packet-types.git"
+	},
+	"keywords": [
+		"bedrock"
+	],
+	"author": "SkyLake",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SkyLake-git/bedrock-packet-types/issues"
+	},
+	"homepage": "https://github.com/SkyLake-git/bedrock-packet-types#readme"
 }

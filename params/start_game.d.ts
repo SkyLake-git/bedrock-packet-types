@@ -1,4 +1,4 @@
-import { PacketData, PacketParams, PUInt, PVarInt, PVec2, PVec3, PVec3I, PZigZag32 } from "..";
+import { Packet, PacketData, PacketParams, PUInt, PVarInt, PVec2, PVec3, PVec3I, PZigZag32 } from "..";
 type StartGameParams = PacketParams & {
 	entity_id: PZigZag32,
 	runtime_entity_id: PVarInt,

@@ -1,6 +1,6 @@
 {
 	"name": "bedrock-packet-types",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Bedrock Protocol Packet Types",
 	"main": "index.js",
 	"scripts": {

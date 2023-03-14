@@ -22,6 +22,13 @@ export type TransactionActionType = {
 
 export type TransactionUseItem = {
 	action_type: PVarInt | TransactionUseItemType
+	block_position: PVec3
+	face: PVarInt
+	hotbar_slot: PVarInt
+	held_item: NetworkItem
+	player_pos: PVec3
+	click_pos: PVec3
+	block_runtime_id: PVarInt
 }
 
 export type TransactionUseItemOnEntity = {

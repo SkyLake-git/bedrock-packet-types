@@ -2,13 +2,14 @@ import { Packet, PacketData, PacketParams, PVarInt, PVec3, PZigZag32 } from '..'
 import { NetworkItem } from '../network_types'
 import { TransactionLegacy } from './player_auth_input'
 
+export type TransactionSourceType = 'container' | 'global' | 'world_interaction' | 'creative' | 'craft_slot' | 'craft'
 export type TransactionType = 'normal' | 'inventory_mismatch' | 'item_use' | 'item_use_on_entity' | 'item_release'
 export type TransactionUseItemType = 'click_block' | 'click_air' | 'break_block'
 export type TransactionUseItemOnEntityType = 'interact' | 'attack'
 export type TransactionReleaseItemType = 'release' | 'consume'
 
 export type TransactionActionType = {
-	source_type: PVarInt
+	source_type: PVarInt | TransactionSourceType
 	type: {
 		inventory_id: PVarInt // container
 		action: PVarInt // craft or craft_slot

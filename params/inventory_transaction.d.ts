@@ -20,11 +20,6 @@ export type TransactionActionType = {
 	new_item: NetworkItem
 }
 
-export type TransactionActions = {
-	countType: PVarInt
-	type: TransactionActionType
-}
-
 export type TransactionUseItem = {
 	action_type: PVarInt | TransactionUseItemType
 }
@@ -48,7 +43,7 @@ export type TransactionReleaseItem = {
 export type Transaction = {
 	legacy: TransactionLegacy
 	transaction_type: TransactionType
-	actions: TransactionActions
+	actions: TransactionActionType[]
 	transaction_data: void | undefined |
 	TransactionUseItem | TransactionUseItemOnEntity | TransactionReleaseItem
 }

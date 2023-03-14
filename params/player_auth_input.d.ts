@@ -22,18 +22,12 @@ export type TransactionLegacy = {
 }
 
 export type TransactionLegacyContent = {
-	countType: number,
-	type: {
-		container_id: number,
-		changed_slots: TransactionLegacySlotChange[]
-	}
+	container_id: number,
+	changed_slots: TransactionLegacySlotChange[]
 }
 
 export type TransactionLegacySlotChange = {
-	countType: number,
-	type: {
-		slot_id: number
-	}
+	slot_id: number
 }
 
 export type TransactionUseItem = {
